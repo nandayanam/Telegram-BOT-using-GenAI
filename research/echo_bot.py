@@ -21,7 +21,7 @@ async def command_start_handler(message: types.Message):
     await message.reply("Hello! I'm a bot that can help you to find the best restaurants")
 
     
-dp.message_handler
+dp.message_handler()
 async def echo(message: types.Message):
     """This will return an echo of the message."""
     await message.reply(message.text)
