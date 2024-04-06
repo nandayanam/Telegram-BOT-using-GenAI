@@ -26,5 +26,5 @@ async def echo(message: types.Message):
     """This will return an echo of the message."""
     await message.reply(message.text)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
