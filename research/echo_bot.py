@@ -9,4 +9,3 @@ API_TOKEN = os.getenv("TOKEN")
 
 
 print(API_TOKEN)
-
