@@ -9,6 +9,9 @@ API_TOKEN = os.getenv("TOKEN")
 
 #print(API_TOKEN)
 
+#configure logging
+logging.basicConfig(level=logging.INFO)
+
 
 #Initialize bot
 bot = Bot(token = API_TOKEN)
